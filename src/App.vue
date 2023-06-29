@@ -1,16 +1,24 @@
 <script setup>
+const options = [
+        "one",
+        "two",
+        "three",
+        "nine",
+      ];
 </script>
 
 <template>
-  <button>Button</button>
+  <va-button> Button </va-button>
 
-  <input type="text" value="Input" />
+  <va-input
+      v-model="value"
+      class="mb-6"
+    />
 
-  <select name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-</select>
+    <va-select
+      v-model="value"
+      :options="options"
+    />
 </template>
 
 <style scoped>
