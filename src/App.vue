@@ -1,20 +1,16 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <button>Button</button>
+  <v-app>
+    <v-btn>
+      Button
+    </v-btn>
 
-  <input type="text" value="Input" />
+    <v-text-field label="Label"></v-text-field>
 
-  <select name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-</select>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+    <v-select label="Select" :items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"></v-select>
+  </v-app>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
