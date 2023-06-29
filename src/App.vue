@@ -1,5 +1,4 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -12,7 +11,6 @@
     <option value="dog">Dog</option>
     <option value="cat">Cat</option>
 </select>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
