@@ -1,18 +1,16 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+// model: ref(null),
+const options = [
+  'Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'
+]
 </script>
 
 <template>
-  <button>Button</button>
+  <q-btn color="white" text-color="black" label="Standard" />
 
-  <input type="text" value="Input" />
+  <q-input v-model="text" label="Standard" />
 
-  <select name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-</select>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <q-select v-model="model" :options="options" label="Standard" />
 </template>
 
 <style scoped>
