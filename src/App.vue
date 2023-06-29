@@ -2,15 +2,20 @@
 </script>
 
 <template>
-  <button>Button</button>
+  <a-button type="primary">Primary Button</a-button>
 
-  <input type="text" value="Input" />
+  <a-input v-model:value="value" placeholder="Basic usage" />
 
-  <select name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-</select>
+  <a-select
+      ref="select"
+      v-model:value="value1"
+      style="width: 120px"
+    >
+      <a-select-option value="jack">Jack</a-select-option>
+      <a-select-option value="lucy">Lucy</a-select-option>
+      <a-select-option value="disabled" disabled>Disabled</a-select-option>
+      <a-select-option value="Yiminghe">yiminghe</a-select-option>
+    </a-select>
 </template>
 
 <style scoped>

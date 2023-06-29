@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ant-design-vue": "^3.2.20",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "vite": "^4.3.9"
   }
 }
