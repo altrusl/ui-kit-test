@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  primevue:
+    specifier: ^3.29.2
+    version: 3.29.2(vue@3.2.47)
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -384,6 +387,14 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /primevue@3.29.2(vue@3.2.47):
+    resolution: {integrity: sha512-zMk1w5AySLR6ipWH2fONKtDabHrvRZhZFI1OdoiBDdMhZpARmWuCXwE/ZFusUh5Te0RBEd3iVCiizjUkSRraRQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.2.47
+    dev: false
 
   /rollup@3.25.3:
     resolution: {integrity: sha512-ZT279hx8gszBj9uy5FfhoG4bZx8c+0A1sbqtr7Q3KNWIizpTdDEPZbV2xcbvHsnFp4MavCQYZyzApJ+virB8Yw==}
