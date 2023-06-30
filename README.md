@@ -1,10 +1,12 @@
-# Vue 3 UI framework comparison
+# Vue 3 UI frameworks footprint comparison
 
-UI component libraries are popular and handy in some cases, but they also have downsides. It's one thing when you make an admin panel and use dozens of components, it's another thing when you need only a couple of components.
+UI component libraries are popular and handy in some cases, but they also have downsides. It's one thing when you make an admin panel and use dozens of components, it's another thing when you need only a couple of components. The question is - won't some particular UI library affect perfomance?
 
-In this test we use three HTML elements - button, input and select, and the result shows how much js and css bundles would increase if one of the 10 common UI libraries for Vue 3 is used
+In this test we use three HTML elements - Button, Input and Select, and the results show how much js and css bundles would become if one of the 10 common UI libraries for Vue 3 is used
 
-Codebase for each UI lib test is contained in a dedicated repo branch 
+Codebase for each UI lib test is contained in a dedicated repo branch
+
+Environment: Node v18, Pnpm v8.3, Vue v3.2, Vite v4.3.9
 
 ## Test results
 
@@ -22,3 +24,8 @@ Codebase for each UI lib test is contained in a dedicated repo branch
 | Naive UI | 313.61 | 0.15 |
 | Agnostic UI | 25.62 | 97.48 |
 | Vanilla Components | 650 | 0.2 |
+
+
+----
+
+Please give this investigation a star if you like it.
