@@ -11,19 +11,19 @@ Codebase for each UI lib test is contained in a dedicated repo branch
 ## Test results
 
 
-| **UI lib** | **js (KB)** | **css (KB)** |
-| --- | --- | --- | 
-| Vue 3 & HTML | 52  | 0.2 |
-| Vuetify 3 | 203 | 72  |
-| Quasar | 178 | 201 |
-| Primevue | 138 | 159 |
-| Element Plus | 843 | 325 |
-| Ant design | 1132 | 598 |
-| Vant UI | 87  | 192 |
-| Vuestic UI | 515 | 186 |
-| Naive UI | 313.61 | 0.15 |
-| Agnostic UI | 25.62 | 97.48 |
-| Vanilla Components | 650 | 0.2 |
+| **UI lib** | **js (KB)** | **css (KB)** | **GitHub stars (K)** |
+| --- | --- | --- | ---|
+| Vue 3 & HTML | 52  | 0.2 | |
+| Vuetify 3 | 203 | 72  | 37.4|
+| Quasar | 178 | 201 | 23.8 |
+| PrimeVue | 138 | 159 | 3.9 |
+| Element Plus | 843 | 325 | 20.4 |
+| Ant Design for Vue | 1132 | 598 | 18.3 |
+| Vant UI | 87  | 192 | 21.5 |
+| Vuestic UI | 515 | 186 | 2.9 |
+| Naive UI | 313.61 | 0.15 | 13 |
+| Agnostic UI | 25.62 | 97.48 | 0.64 |
+| Vanilla Components | 650 | 0.2 | 0.15 |
 
 
 ----
