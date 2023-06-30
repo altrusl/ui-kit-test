@@ -6,13 +6,13 @@ In this test we use three HTML elements - Button, Input and Select, and the resu
 
 Codebase for each UI lib test is contained in a dedicated repo branch
 
-Environment: Node v18, Pnpm v8.3, Vue v3.2, Vite v4.3.9
+*Environment: Node v18, Pnpm v8.3, Vue v3.2, Vite v4.3.9*
 
 ## Test results
 
 
-| --- | --- | --- | 
 | **UI lib** | **js (KB)** | **css (KB)** |
+| --- | --- | --- | 
 | Vue 3 & HTML | 52  | 0.2 |
 | Vuetify 3 | 203 | 72  |
 | Quasar | 178 | 201 |
@@ -28,4 +28,4 @@ Environment: Node v18, Pnpm v8.3, Vue v3.2, Vite v4.3.9
 
 ----
 
-Please give this investigation a star if you like it.
+*Please give this investigation a star if you like it.*
