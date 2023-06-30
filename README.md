@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# Vue 3 UI framewaork comparison
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+UI component libraries are popular and handy in some cases, but they also have downsides. It's one thing when you make an admin panel and use dozens of components, it's another thing when you need only a couple of components.
 
-## Recommended IDE Setup
+In this test we use three HTML elements - button, input and select, and the result shows how much js and css bundles would increase if one of the 10 common UI libraries for Vue 3 is used
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Codebase for each UI lib test is contained in dedicated repo branch 
+
+
+
+|     |     |     |    
+| --- | --- | --- | 
+| **UI lib** | **js (Kb)** | **css (Kb)** |
+| Vue 3 & HTML | 52  | 0.2 |
+| Vuetify 3 | 203 | 72  |
+| Quasar | 178 | 201 |
+| Primevue | 138 | 159 |
+| Element Plus | 843 | 325 |
+| Ant design | 1132 | 598 |
+| Vant UI | 87  | 192 |
+| Vuestic UI | 515 | 186 |
+| Naive UI | 313.61 | 0.15 |
+| Agnostic UI | 25.62 | 97.48 |
+| Vanilla Components | 650 | 0.2 |
