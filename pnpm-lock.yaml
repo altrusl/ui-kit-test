@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  agnostic-vue:
+    specifier: ^1.1.3
+    version: 1.1.3
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -236,6 +239,16 @@ packages:
     dev: true
     optional: true
 
+  /@floating-ui/core@0.7.3:
+    resolution: {integrity: sha512-buc8BXHmG9l82+OQXOFU3Kr2XQx9ys01U/Q9HMIrZ300iLc8HLMgh7dcCqgYzAzf4BkoQvDcXf5Y+CuEZ5JBYg==}
+    dev: false
+
+  /@floating-ui/dom@0.5.4:
+    resolution: {integrity: sha512-419BMceRLq0RrmTSDxn8hf9R3VCJv2K9PUfugh5JyEFmdjzDo+e8U5EdR8nzKq8Yj1htzLm3b6eQEEam3/rrtg==}
+    dependencies:
+      '@floating-ui/core': 0.7.3
+    dev: false
+
   /@vitejs/plugin-vue@4.1.0(vite@4.3.9)(vue@3.2.47):
     resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -320,6 +333,25 @@ packages:
   /@vue/shared@3.2.47:
     resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==}
 
+  /a11y-dialog@7.5.2:
+    resolution: {integrity: sha512-zfWtVvrbGbP3AFnEJ1aJFtu7GvedgjOEKbkyEUSeaNWDzmFJk9O5nuolDQrRDyRDE5fqSJRiBJtD5bUYKveoUg==}
+    dependencies:
+      focusable-selectors: 0.4.0
+    dev: false
+
+  /agnostic-helpers@1.0.3:
+    resolution: {integrity: sha512-JIw3qhtSe+UqZEbVKQgjKdFNnJ9KphX8voQDGgBAAo1x+Svyj4pAHwVovVtJpXSVoBLIqnTbdQNHetKZk7pTZQ==}
+    dev: false
+
+  /agnostic-vue@1.1.3:
+    resolution: {integrity: sha512-7Og2Hwo1bl3ZAsLj4ttKWIjWL5yTVzRLx7hfXsIki35euJt9HJEOCjZjYmgCBNooDb6I7HVbCGxJaCH3ThC2qg==}
+    dependencies:
+      '@floating-ui/dom': 0.5.4
+      agnostic-helpers: 1.0.3
+      vue: 3.2.47
+      vue-a11y-dialog: 1.1.2(vue@3.2.47)
+    dev: false
+
   /csstype@2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
 
@@ -355,6 +387,10 @@ packages:
 
   /estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  /focusable-selectors@0.4.0:
+    resolution: {integrity: sha512-tc/236hUU3xemsRLu1RKhRQ5UWHjRM9iJTli1zdac43h7b1biRSgG0mILM0qrcsKaGCHcOPJ6NKbk12ouKHLpw==}
+    dev: false
 
   /fsevents@2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
@@ -440,6 +476,15 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /vue-a11y-dialog@1.1.2(vue@3.2.47):
+    resolution: {integrity: sha512-GgeWk+DMHdqfDDxkrGlMywvCqrYcqPhL+nPnAWMBDNSvxMXAWoOByl6sz+i4vu+vvgalCR+qDJr7h98eWdMO5A==}
+    peerDependencies:
+      vue: ^3.2.26
+    dependencies:
+      a11y-dialog: 7.5.2
+      vue: 3.2.47
+    dev: false
 
   /vue@3.2.47:
     resolution: {integrity: sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ==}
