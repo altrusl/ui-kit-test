@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@flavorly/vanilla-components": "^0.7.54",
+    "@headlessui/vue": "^1.7.14",
+    "@popperjs/core": "^2.11.8",
     "vue": "^3.2.47"
   },
   "devDependencies": {
