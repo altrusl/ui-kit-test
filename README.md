@@ -10,7 +10,7 @@ Codebase for each UI lib test is contained in a dedicated repo branch
 
 
 | --- | --- | --- | 
-| **UI lib** | **js (KB)** | **css (Kb)** |
+| **UI lib** | **js (KB)** | **css (KB)** |
 | Vue 3 & HTML | 52  | 0.2 |
 | Vuetify 3 | 203 | 72  |
 | Quasar | 178 | 201 |
